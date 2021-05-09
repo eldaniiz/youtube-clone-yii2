@@ -1,0 +1,458 @@
+2021-04-27 16:53:46 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210427_165300_create_videos_table does not exist in /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#2 /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#3 /var/www/html/yutup1/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#4 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject()
+#5 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(743): yii\console\controllers\MigrateController->createMigration()
+#6 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(202): yii\console\controllers\BaseMigrateController->migrateUp()
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#8 /var/www/html/yutup1/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#9 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#10 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#11 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#12 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#13 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#14 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#15 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210427_165300_create_videos_table". in /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build()
+#2 /var/www/html/yutup1/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#3 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject()
+#4 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(743): yii\console\controllers\MigrateController->createMigration()
+#5 /var/www/html/yutup1/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(202): yii\console\controllers\BaseMigrateController->migrateUp()
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#7 /var/www/html/yutup1/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#10 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#11 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#12 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#13 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#14 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#15 {main}
+2021-04-27 16:53:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/eldaniz1337:@/tmp/.ICE-unix/1782,unix/eldaniz1337:/tmp/.ICE-unix/1782'
+    'PAPERSIZE' => 'letter'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/3954160e_0197_4401_8005_884738041b83'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'LANG' => 'en_US.UTF-8'
+    'LC_IDENTIFICATION' => 'en_US.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'IM_CONFIG_PHASE' => '1'
+    'COLORTERM' => 'truecolor'
+    'QT_IM_MODULE' => 'ibus'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'HOME' => '/home/eldensavage'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'USER' => 'eldensavage'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'LC_MEASUREMENT' => 'en_US.UTF-8'
+    'SSH_AGENT_PID' => '1737'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'PWD' => '/var/www/html/yutup1'
+    'LC_NUMERIC' => 'en_US.UTF-8'
+    '_' => '/usr/bin/php7.4'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'WINDOWPATH' => '2'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'JOURNAL_STREAM' => '8:43779'
+    'QT_ACCESSIBILITY' => '1'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANAGERPID' => '1551'
+    'LC_TIME' => 'en_US.UTF-8'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LOGNAME' => 'eldensavage'
+    'GNOME_TERMINAL_SERVICE' => ':1.82'
+    'LC_PAPER' => 'en_US.UTF-8'
+    'PATH' => '/home/eldensavage/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_TELEPHONE' => 'en_US.UTF-8'
+    'LC_MONETARY' => 'en_US.UTF-8'
+    'SHELL' => '/usr/bin/zsh'
+    'VTE_VERSION' => '6003'
+    'USERNAME' => 'eldensavage'
+    'INVOCATION_ID' => 'c3adacdc1ef2468d9e71558a01c523f9'
+    'SHLVL' => '1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'LC_NAME' => 'en_US.UTF-8'
+    'DISPLAY' => ':0'
+    'TERM' => 'xterm-256color'
+    'LC_ADDRESS' => 'en_US.UTF-8'
+    'XDG_SESSION_CLASS' => 'user'
+    'GDMSESSION' => 'ubuntu'
+    'OLDPWD' => '/var/www/html/yutup1/frontend'
+    'ZSH' => '/home/eldensavage/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1619542425.5996
+    'REQUEST_TIME' => 1619542425
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2021-04-27 17:16:32 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migrate:reset". in /var/www/html/yutup1/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#2 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#3 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate:reset". in /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php:184
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#2 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#3 {main}
+2021-04-27 17:16:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SESSION_MANAGER' => 'local/eldaniz1337:@/tmp/.ICE-unix/1782,unix/eldaniz1337:/tmp/.ICE-unix/1782'
+    'PAPERSIZE' => 'letter'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/3954160e_0197_4401_8005_884738041b83'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'LANG' => 'en_US.UTF-8'
+    'LC_IDENTIFICATION' => 'en_US.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'IM_CONFIG_PHASE' => '1'
+    'COLORTERM' => 'truecolor'
+    'QT_IM_MODULE' => 'ibus'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'HOME' => '/home/eldensavage'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'USER' => 'eldensavage'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'LC_MEASUREMENT' => 'en_US.UTF-8'
+    'SSH_AGENT_PID' => '1737'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'PWD' => '/var/www/html/yutup1'
+    'LC_NUMERIC' => 'en_US.UTF-8'
+    '_' => '/usr/bin/php7.4'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'WINDOWPATH' => '2'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'JOURNAL_STREAM' => '8:43779'
+    'QT_ACCESSIBILITY' => '1'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANAGERPID' => '1551'
+    'LC_TIME' => 'en_US.UTF-8'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LOGNAME' => 'eldensavage'
+    'GNOME_TERMINAL_SERVICE' => ':1.82'
+    'LC_PAPER' => 'en_US.UTF-8'
+    'PATH' => '/home/eldensavage/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XMODIFIERS' => '@im=ibus'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_TELEPHONE' => 'en_US.UTF-8'
+    'LC_MONETARY' => 'en_US.UTF-8'
+    'SHELL' => '/usr/bin/zsh'
+    'VTE_VERSION' => '6003'
+    'USERNAME' => 'eldensavage'
+    'INVOCATION_ID' => 'c3adacdc1ef2468d9e71558a01c523f9'
+    'SHLVL' => '1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'LC_NAME' => 'en_US.UTF-8'
+    'DISPLAY' => ':0'
+    'TERM' => 'xterm-256color'
+    'LC_ADDRESS' => 'en_US.UTF-8'
+    'XDG_SESSION_CLASS' => 'user'
+    'GDMSESSION' => 'ubuntu'
+    'OLDPWD' => '/var/www/html/yutup1/frontend'
+    'ZSH' => '/home/eldensavage/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1619543792.6536
+    'REQUEST_TIME' => 1619543792
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate:reset'
+    ]
+    'argc' => 2
+]
+2021-05-07 16:36:30 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migate". in /var/www/html/yutup1/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#2 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#3 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migate". in /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php:184
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#2 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#3 {main}
+2021-05-07 16:36:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/home/eldensavage/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'LC_MEASUREMENT' => 'en_US.UTF-8'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'INVOCATION_ID' => 'bbccc36ccbd540658573e51cc0559e9d'
+    'XMODIFIERS' => '@im=ibus'
+    'LC_TELEPHONE' => 'en_US.UTF-8'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'GDMSESSION' => 'ubuntu'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_TIME' => 'en_US.UTF-8'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'PAPERSIZE' => 'letter'
+    'SNAP_INSTANCE_KEY' => ''
+    'SNAP_USER_COMMON' => '/home/eldensavage/snap/phpstorm/common'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/home/eldensavage/.cache/JetBrains/PhpStorm2021.1/terminal/history/yutup1-history'
+    'SNAP_REVISION' => '215'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'JOURNAL_STREAM' => '8:45431'
+    'SSH_AGENT_PID' => '1847'
+    'LC_PAPER' => 'en_US.UTF-8'
+    'SESSION_MANAGER' => 'local/eldaniz:@/tmp/.ICE-unix/1890,unix/eldaniz:/tmp/.ICE-unix/1890'
+    'USERNAME' => 'eldensavage'
+    'LOGNAME' => 'eldensavage'
+    'PWD' => '/var/www/html/yutup1'
+    'MANAGERPID' => '1661'
+    'IM_CONFIG_PHASE' => '1'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'SHELL' => '/usr/bin/zsh'
+    'LC_ADDRESS' => 'en_US.UTF-8'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'TERM_SESSION_ID' => '3c3e14f2-791a-48d9-94ab-2b7012e84aec'
+    'SNAP_ARCH' => 'amd64'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SHLVL' => '1'
+    'LC_IDENTIFICATION' => 'en_US.UTF-8'
+    'LC_MONETARY' => 'en_US.UTF-8'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_IM_MODULE' => 'ibus'
+    'TERM' => 'xterm-256color'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'LANG' => 'en_US.UTF-8'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'XDG_SESSION_TYPE' => 'x11'
+    'SNAP_USER_DATA' => '/home/eldensavage/snap/phpstorm/215'
+    'DISPLAY' => ':0'
+    'SNAP_REEXEC' => ''
+    'SNAP_VERSION' => '2021.1.2'
+    'LC_NAME' => 'en_US.UTF-8'
+    'XDG_SESSION_CLASS' => 'user'
+    '_' => '/usr/bin/php7.4'
+    'SNAP_DATA' => '/var/snap/phpstorm/215'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'SNAP' => '/snap/phpstorm/215'
+    'USER' => 'eldensavage'
+    'SNAP_REAL_HOME' => '/home/eldensavage'
+    'DESKTOP_STARTUP_ID' => 'gnome-shell/PhpStorm/1904-1-eldaniz_TIME1293092'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '4038'
+    'QT_ACCESSIBILITY' => '1'
+    'WINDOWPATH' => '2'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LC_NUMERIC' => 'en_US.UTF-8'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'SNAP_CONTEXT' => '0F1QYHg1pwUcNQoHpnh3nMzO293gbX3AS85IZZxw0VZK1rakmc5l'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_COOKIE' => '0F1QYHg1pwUcNQoHpnh3nMzO293gbX3AS85IZZxw0VZK1rakmc5l'
+    'HOME' => '/home/eldensavage'
+    'OLDPWD' => '/var/www/html/yutup1'
+    'ZSH' => '/home/eldensavage/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1620405390.0315
+    'REQUEST_TIME' => 1620405390
+    'argv' => [
+        0 => 'yii'
+        1 => 'migate'
+    ]
+    'argc' => 2
+]
+2021-05-09 19:54:03 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "require". in /var/www/html/yutup1/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#2 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#3 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "require". in /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php:184
+Stack trace:
+#0 /var/www/html/yutup1/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#1 /var/www/html/yutup1/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#2 /var/www/html/yutup1/yii(23): yii\base\Application->run()
+#3 {main}
+2021-05-09 19:54:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/home/eldensavage/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'LC_MEASUREMENT' => 'en_US.UTF-8'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'INVOCATION_ID' => '57dc35fc6cf545228d5432328dd6ecfc'
+    'XMODIFIERS' => '@im=ibus'
+    'LC_TELEPHONE' => 'en_US.UTF-8'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'GDMSESSION' => 'ubuntu'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_TIME' => 'en_US.UTF-8'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'PAPERSIZE' => 'letter'
+    'SNAP_INSTANCE_KEY' => ''
+    'SNAP_USER_COMMON' => '/home/eldensavage/snap/phpstorm/common'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/home/eldensavage/.cache/JetBrains/PhpStorm2021.1/terminal/history/yutup1-history'
+    'SNAP_REVISION' => '215'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'JOURNAL_STREAM' => '8:43573'
+    'SSH_AGENT_PID' => '1650'
+    'LC_PAPER' => 'en_US.UTF-8'
+    'SESSION_MANAGER' => 'local/eldaniz:@/tmp/.ICE-unix/1693,unix/eldaniz:/tmp/.ICE-unix/1693'
+    'USERNAME' => 'eldensavage'
+    'LOGNAME' => 'eldensavage'
+    'PWD' => '/var/www/html/yutup1'
+    'MANAGERPID' => '1465'
+    'IM_CONFIG_PHASE' => '1'
+    'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG'
+    'SHELL' => '/usr/bin/zsh'
+    'LC_ADDRESS' => 'en_US.UTF-8'
+    'GIO_LAUNCHED_DESKTOP_FILE' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'TERM_SESSION_ID' => 'ee1a79b8-6ce8-41bf-9acf-747f7b557be1'
+    'SNAP_ARCH' => 'amd64'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SHLVL' => '1'
+    'LC_IDENTIFICATION' => 'en_US.UTF-8'
+    'LC_MONETARY' => 'en_US.UTF-8'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_IM_MODULE' => 'ibus'
+    'TERM' => 'xterm-256color'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'LANG' => 'en_US.UTF-8'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'XDG_SESSION_TYPE' => 'x11'
+    'SNAP_USER_DATA' => '/home/eldensavage/snap/phpstorm/215'
+    'DISPLAY' => ':0'
+    'SNAP_REEXEC' => ''
+    'SNAP_VERSION' => '2021.1.2'
+    'LC_NAME' => 'en_US.UTF-8'
+    'XDG_SESSION_CLASS' => 'user'
+    '_' => '/usr/bin/php7.4'
+    'SNAP_DATA' => '/var/snap/phpstorm/215'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'SNAP' => '/snap/phpstorm/215'
+    'USER' => 'eldensavage'
+    'SNAP_REAL_HOME' => '/home/eldensavage'
+    'DESKTOP_STARTUP_ID' => 'gnome-shell/PhpStorm/1709-3-eldaniz_TIME5263224'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GIO_LAUNCHED_DESKTOP_FILE_PID' => '11090'
+    'QT_ACCESSIBILITY' => '1'
+    'WINDOWPATH' => '2'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LC_NUMERIC' => 'en_US.UTF-8'
+    'GJS_DEBUG_OUTPUT' => 'stderr'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'SNAP_CONTEXT' => '0F1QYHg1pwUcNQoHpnh3nMzO293gbX3AS85IZZxw0VZK1rakmc5l'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_COOKIE' => '0F1QYHg1pwUcNQoHpnh3nMzO293gbX3AS85IZZxw0VZK1rakmc5l'
+    'HOME' => '/home/eldensavage'
+    'OLDPWD' => '/var/www/html/yutup1'
+    'ZSH' => '/home/eldensavage/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1620590043.4011
+    'REQUEST_TIME' => 1620590043
+    'argv' => [
+        0 => 'yii'
+        1 => 'require'
+    ]
+    'argc' => 2
+]
